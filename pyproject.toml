@@ -1,0 +1,22 @@
+[project]
+name = "examsproject-megan-loe-de25"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "HelloThisDog", email = "meganhelenaloe@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=2.0.0",
+    "fastapi>=0.162.0",
+    "ipykernel>=7.4.0",
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+examsproject-megan-loe-de25 = "examsproject_megan_loe_de25:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
